@@ -174,3 +174,11 @@ body{
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
+
+.margin-right-sm{
+  margin-right: 1.6rem !important;
+}
+
+strong{
+  font-weight: 500;
+}
