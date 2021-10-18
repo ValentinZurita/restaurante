@@ -212,7 +212,7 @@
 
 
 /************************/
-/* HOW IT WORKS SECTION */
+/* MEALS SECTION */
 /************************/
 
 .section-meals{
@@ -223,6 +223,13 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal:hover{
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+
 }
 
 .meal-content{
@@ -289,6 +296,11 @@
   width: 100%;
 }
 
+.all-recipes{
+  text-align: center;
+  font-size: 1.8rem;
+}
+
 .list{
   list-style: none;
   display: flex;
@@ -308,3 +320,4 @@
   height: 3rem;
   color: #e67e22;
 }
+
